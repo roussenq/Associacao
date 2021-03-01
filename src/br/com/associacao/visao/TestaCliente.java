@@ -23,7 +23,13 @@ public class TestaCliente {
     public static void main(String[] args) {
         String menu;
         do {
-            menu = JOptionPane.showInputDialog("Escolha opção:\n(1)-Salvar \n(2)-Pesquisar por nome \n(5)-Sair");
+            menu = JOptionPane.showInputDialog("Escolha opção:"
+                    + "\n(1)-Salvar"
+                    + "\n(2)-Pesquisar por nome"
+                    + "\n(3)-"
+                    + "\n(4)-"
+                    + "\n(5)-Sair"
+            );
             
             switch(menu){
                 case "1":
