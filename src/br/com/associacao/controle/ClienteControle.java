@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.asssociacao.controle;
+package br.com.associacao.controle;
 
 import br.com.associacao.entidade.Cliente;
 import java.io.Serializable;

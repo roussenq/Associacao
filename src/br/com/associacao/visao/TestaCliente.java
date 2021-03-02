@@ -7,7 +7,7 @@ package br.com.associacao.visao;
 
 import br.com.associacao.entidade.Cliente;
 import br.com.associacao.entidade.Endereco;
-import br.com.asssociacao.controle.ClienteControle;
+import br.com.associacao.controle.ClienteControle;
 import br.com.utilitario.UtilGerador;
 import java.util.List;
 import javax.swing.JOptionPane;

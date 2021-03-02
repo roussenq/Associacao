@@ -21,7 +21,7 @@ public class FabricaConexao {
         Connection driver = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            driver = DriverManager.getConnection("jdbc:mysql://localhost:3306/petshop"
+            driver = DriverManager.getConnection("jdbc:mysql://localhost:3306/associacao"
                     + "?useTimezone=true&serverTimezone=America/Sao_Paulo&zeroDateTimeBehavior=convertToNull",
                     "root", "admin");
         } catch (Exception e) {
